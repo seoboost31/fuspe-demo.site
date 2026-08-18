@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Fuspe Demo — a modern product showcase and SaaS demo experience.">
+<title>Fuspe Demo — Experience the Product</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Mono&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f3f5ff;color:#17182b;font-family:"DM Sans",sans-serif}
+nav{height:76px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#fff;border-bottom:1px solid #e5e7f2}
+.brand{font-weight:700;font-size:23px}.brand i{font-family:"Space Mono";font-style:normal;color:#6157e8}
+nav a{color:#4c4e62;text-decoration:none;margin-left:25px;font-size:14px}
+.hero{padding:95px 7% 110px;background:linear-gradient(120deg,#ffffff 30%,#e9e8ff);display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.tag{font-family:"Space Mono";font-size:12px;color:#6157e8;letter-spacing:2px}
+h1{font-size:clamp(50px,6vw,78px);line-height:.98;letter-spacing:-4px;margin:18px 0}
+.lead{font-size:18px;line-height:1.75;color:#65677a;max-width:580px}
+.btn{display:inline-block;background:#6157e8;color:#fff;text-decoration:none;padding:15px 24px;border-radius:10px;font-weight:700;margin-top:15px}
+.mockup{background:#17182b;padding:12px;border-radius:24px;box-shadow:0 30px 70px #5e59a433;transform:rotate(2deg)}
+.mockup img{display:block;width:100%;height:390px;object-fit:cover;border-radius:15px}
+section{padding:90px 7%;max-width:1200px;margin:auto}h2{font-size:42px;letter-spacing:-2px;margin:12px 0 30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid #e3e4f0;border-radius:18px;padding:30px;min-height:220px}
+.num{font-family:"Space Mono";color:#6157e8;font-size:13px}.card p{color:#707285;line-height:1.7}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.split img{width:100%;height:420px;object-fit:cover;border-radius:22px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.stat{background:#6157e8;color:#fff;padding:30px;border-radius:18px}.stat strong{font-size:40px;display:block}
+.cta{max-width:none;margin:40px 7% 80px;border-radius:25px;background:#17182b;color:#fff;text-align:center;padding:80px 20px}.cta p{color:#bfc0d0}
+footer{background:#fff;border-top:1px solid #e4e5ed;padding:28px 7%;display:flex;justify-content:space-between;color:#77798a;font-size:13px}
+@media(max-width:850px){.hero,.split{grid-template-columns:1fr}.grid,.stats{grid-template-columns:1fr}nav a{display:none}.mockup{transform:none}footer{display:block}footer span{display:block;margin-top:8px}}
+</style>
+</head>
+<body>
+<nav><div class="brand">fuspe<i>demo</i></div><div><a href="#features">Features</a><a href="#workflow">Workflow</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+<div><div class="tag">PRODUCT DEMO / 01</div><h1>See the idea. Then make it real.</h1><p class="lead">Fuspe Demo is a polished product showcase concept built for modern software teams that want visitors to understand their product quickly.</p><a class="btn" href="#features">Explore Features →</a></div>
+<div class="mockup"><img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=85" alt="Software analytics dashboard"></div>
+</header>
+
+<section id="features"><div class="tag">WHY FUSPE</div><h2>Everything important, at a glance.</h2><div class="grid">
+<article class="card"><div class="num">01</div><h3>Clear Interfaces</h3><p>Present complex workflows through simple, focused screens that users can understand instantly.</p></article>
+<article class="card"><div class="num">02</div><h3>Smart Workflows</h3><p>Connect repetitive steps into streamlined journeys that help teams move from idea to action.</p></article>
+<article class="card"><div class="num">03</div><h3>Useful Insights</h3><p>Turn activity into practical information with clean reports and easy-to-read visual summaries.</p></article>
+</div></section>
+
+<section id="workflow" class="split"><img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=85" alt="Team working together"><div><div class="tag">SIMPLE WORKFLOW</div><h2>From first click to confident decision.</h2><p class="lead">A good product demo should remove uncertainty. Guide visitors through the problem, show the solution, and finish with one clear next step.</p><a class="btn" href="#contact">Start a Conversation</a></div></section>
+
+<section><div class="stats"><div class="stat"><strong>3×</strong>Faster product discovery</div><div class="stat"><strong>24/7</strong>Digital experience</div><div class="stat"><strong>1</strong>Clear next step</div></div></section>
+
+<section class="cta" id="contact"><div class="tag">READY TO EXPLORE?</div><h2>Turn your product story into an experience.</h2><p>Build a sharper first impression for your next software product.</p><a class="btn" href="mailto:hello@fuspe-demo.site">Contact the Team →</a></section>
+
+<footer><strong>Fuspe Demo</strong><span>© 2026 Fuspe Demo. Product showcase concept.</span></footer>
+</body>
+</html>
